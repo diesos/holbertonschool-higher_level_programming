@@ -1,5 +1,17 @@
 #!/usr/bin/python3
-str1 = "Holberton"
-str2 = "School"
-str1 = str1 + " "+  str2
-print(f"Welcome to {str1}!")
+
+"""
+Concatenates two strings and prints a welcome message.
+
+Variables:
+- str1 (str): First string.
+- str2 (str): Second string.
+
+Usage:
+- Run the script to print a welcome message with the concatenated strings.
+"""
+
+STR1 = "Holberton"
+STR2 = "School"
+STR1 = STR1 + " " + STR2
+print(f"Welcome to {STR1}!")

@@ -1,3 +1,10 @@
 #!/usr/bin/python3
-number = 98
-print(number)
+"""
+Prints the value of the const 'number'.
+
+Usage:
+- Run the script to display the value of the variable 'number'.
+"""
+
+NUMBER = 98
+print(NUMBER)
