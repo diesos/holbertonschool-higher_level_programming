@@ -7,7 +7,7 @@ Parameters:
 - str (str): Input string.
 
 Usage:
-- Call with a string argument to convert lowercase letters to uppercase.
+- Call with string argument,convert lowercase letters to uppercase.
 """
 
 

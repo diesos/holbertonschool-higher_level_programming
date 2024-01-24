@@ -4,7 +4,8 @@
 Prints lowercase  letters from 'a' to 'z', excluding 'e' and 'q'.
 
 Usage:
-- Run the script to display the sequence of lowercase letters skipping 'e' and 'q'.
+- Run the script to display the sequence of
+lowercase letters skipping 'e' and 'q'.
 """
 
 i = 97

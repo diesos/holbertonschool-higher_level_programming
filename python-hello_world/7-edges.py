@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Manipulates the string 'WORD' to extract substrings and display specific information.
+Manipulates the string 'WORD'
 
 Constants:
 - WORD (str): The original string.

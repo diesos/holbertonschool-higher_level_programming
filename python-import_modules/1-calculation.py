@@ -4,7 +4,8 @@
 Tests the add, sub, mul, and div functions from the calculator_1 module.
 
 Usage:
-- Run the script to perform basic arithmetic operations using the specified functions.
+- Run the script to perform basic arithmetic operations
+using the specified functions.
 """
 
 add = __import__('calculator_1').add

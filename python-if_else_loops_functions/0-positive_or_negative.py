@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 """
-Generates a random integer between -10 and 10, then categorizes and prints its nature.
+Generates a random integer between -10 and 10 say if positif or negtve or null
 
 Usage:
-- Run the script to display whether the generated number is negative, positive, or zero.
+- Run the script to display if negative, positive, or zero.
 """
 
 import random
