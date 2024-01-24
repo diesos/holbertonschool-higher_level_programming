@@ -14,5 +14,5 @@ Holberton School Holberton School Holberton School
 Holberton
 """
 ORIGINAL_STRING = "Holberton School"
-print(ORIGINAL_STRING, ORIGINAL_STRING,
-      ORIGINAL_STRING, "\n", ORIGINAL_STRING[:9])
+print(ORIGINAL_STRING * 3)
+print(ORIGINAL_STRING[:9])

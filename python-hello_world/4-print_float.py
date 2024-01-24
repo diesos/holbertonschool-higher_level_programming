@@ -7,4 +7,4 @@ Usage:
 """
 
 NUMBER = 3.14159
-print(f"{NUMBER:.2f}")
+print(f"Float : {NUMBER:.2f}")
