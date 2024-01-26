@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+alphabet = ""
+for ascii_value in range(97, 123):
+    if chr(ascii_value) not in ["q", "e"]:
+        alphabet += chr(ascii_value)
 
-i = 97
-while i < 123:
-    if i == 101 or i == 113:
-        i += 1
-    print(chr(i), end="")
-    i += 1
+print("{}".format(alphabet), end="")
