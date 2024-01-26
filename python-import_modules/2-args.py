@@ -1,22 +1,15 @@
-#!/usr/bin/env python3
-
-"""
-Prints the command-line arguments along with their respective indices.
-
-Usage:
-- Provide command-line arguments when running the script.
-
-Example:
-$ python script.py arg1 arg2 arg3
-"""
-
+#!/usr/bin/python3
 import sys
-argv = len(sys.argv) - 1
-i = 1
-if (argv < 1):
-    print("0 arguments.")
-else:
-    print(f'{argv} arguments:')
-    while (i <= argv):
-        print(f'{i}: {sys.argv[i]}')
-        i += 1
+
+if __name__ == "__main__":
+    arguments = sys.argv[1:]
+    numberOfArguments = len(arguments)
+
+    if numberOfArguments == 0:
+        print("0 arguments.")
+    else:
+        severalArguments = "s" if numberOfArguments > 1 else ""
+        print("{} argument{}:".format(numberOfArguments, severalArguments))
+
+    for index, arg in enumerate(arguments, 1):
+        print("{}: {}".format(index, arg))
