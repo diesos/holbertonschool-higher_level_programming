@@ -1,10 +1,3 @@
 #!/usr/bin/python3
-"""
-Prints the value of the constant 'NUMBER' with two decimal places.
-
-Usage:
-- Run the script to display the formatted value of the constant 'NUMBER'.
-"""
-
-NUMBER = 3.14159
-print(f"Float : {NUMBER:.2f}")
+number = 3.14159
+print(f"Float: {number:.2f}")
