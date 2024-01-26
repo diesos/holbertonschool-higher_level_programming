@@ -1,22 +1,16 @@
-#!/usr/bin/env python3
-
-"""
-Implements the FizzBuzz game for numbers from 1 to 100.
-
-Usage:
-- Run the script to play FizzBuzz and print the results.
-"""
+#!/usr/bin/python3
 
 
 def fizzbuzz():
-    i = 1
-    while i <= 100:
-        if (i % 3 == 0 and i % 5 == 0):
-            print("FizzBuzz", end=" ")
-        elif (i % 3 == 0):
-            print("Fizz", end=" ")
-        elif (i % 5 == 0):
-            print("Buzz", end=" ")
+    verdict = ""
+    for index in range(1, 101):
+        if index % 3 == 0 and index % 5 == 0:
+            verdict += "FizzBuzz "
+        elif index % 3 == 0:
+            verdict += "Fizz "
+        elif index % 5 == 0:
+            verdict += "Buzz "
         else:
-            print(i, end=" ")
-        i += 1
+            verdict += str(index) + " "
+
+    print(verdict, end="")
