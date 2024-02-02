@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 def replace_in_list(my_list, idx, element):
-    for i in range(0,idx + 1):
-        i += 1
-        if i == idx:
-            my_list[i] = element
-            return (my_list)
+    if idx < 0:
+        return (my_list)
+    if idx > len(my_list):
+        return (my_list)
+    my_list.pop(idx)
+    my_list.insert(idx, element)
+    return my_list
