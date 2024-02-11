@@ -14,6 +14,6 @@ class Square:
         Creates new instances of square (1 side).
 
         Args:
-            size: size of the square.
+            Size: size of the square.
         """
         self.__size = size
