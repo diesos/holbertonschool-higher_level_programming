@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-
-"""Defines the 'BaseGeometry' class with an abstract 'area()' method."""
+#!/usr/bin/python3
+""" Defines class BaseGeometry """
 
 
 class BaseGeometry:
-    def __init__(self):
-        pass
-
+    """ Represent class BaseGeometry """
     def area(self):
+        """ Not implemented """
         raise Exception("area() is not implemented")

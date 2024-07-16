@@ -1,8 +1,14 @@
-"""
-Defines a function 'is_kind_of_class' to check if an object is an instance or a subclass of a specified class.
-"""
+#!/usr/bin/python3
+""" Check if object is instance of a class """
 
 
 def is_kind_of_class(obj, a_class):
-    """Returns True if the object is an instance or a subclass of the specified class, False otherwise."""
+    """
+    Check if object is instance of a class
+    Args:
+        obj: object
+        a_class: class
+    Return:
+        True if object is instance of a class, False otherwise
+    """
     return isinstance(obj, a_class)
